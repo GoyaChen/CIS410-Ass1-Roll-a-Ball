@@ -40,8 +40,7 @@ public class PlayerController : MonoBehaviour
                 num_jump++;
             }
         }
-        print(this.transform.position.y);
-        print(num_jump);
+
         if (this.transform.position.y == 0.5)
         {
             num_jump = 0;
